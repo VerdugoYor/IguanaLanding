@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    font-family:'Raleway', sans-serif;
+    box-sizing: border-box;
+    font-weight: 300;
+}
+/* HEADER */
+h1{
+    padding: 1rem;
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+
+.imagenheader{
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* IMAGENTEXTO */
+.textoimagen{
+    width: 65%;
+    margin:3rem auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textoimagen div{
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+
+.textoimagen div:first-child{
+    padding: 2rem;
+}
+
+.textoimagen img{
+    width: 100%;
+    transition: 1s;
+}
+
+.textoimagen img:hover{
+    transform: scale(1.1);
+
+}
+
+.overflow{
+    overflow: hidden;
+}
+
+
+
+.parrafo1{
+    margin-bottom: 1rem;
+}
+
+/* SECCION ICONOS */
+.iconos{
+    background-color: #1e1a13;
+    padding: 5rem 1rem;
+}
+
+.iconos div{
+display:inline-block;
+width: 20%;
+}
+
+.iconos i{
+    margin: 1.5rem 0;
+
+}
+
+h2{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.iconos p{
+    font-size: 1.5rem;
+}
+
+
+
+/* SECCION FOTOS */
+
+.fotos{
+    width: 80%;
+    display: inline-block;
+}
+
+.fotos img{
+width: 300px;
+height: 200px;
+padding: 4rem 0.6rem;
+
+}
+
+/* FOOTER */
+footer{
+    background-color: #1E1A13;
+    line-height: 6rem;
+    }
+
+a{
+    text-decoration: none;
+    color: white;
+}
